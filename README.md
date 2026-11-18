@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # UniGrade — University Examination & Grading Management System
 
 [![Architecture](https://img.shields.io/badge/Architecture-React_%2B_PHP_REST_%2B_MySQL-171717.svg)](#)
@@ -256,3 +257,6 @@ innovative_project/
 - **SQL Injection Prevention**: 100% of database queries use PDO prepared statements with parameterized inputs.
 - **Audit Logging**: Changes to grading scales, mark reviews, result publications, and unlocks record timestamp, user ID, IP address, and JSON before/after snapshots.
 
+=======
+# UniGrade-Innovative-Project
+>>>>>>> 2a62549f78ada335e883d80a44cbae66c7925bc8
