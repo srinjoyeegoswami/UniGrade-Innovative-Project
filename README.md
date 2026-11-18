@@ -258,6 +258,3 @@ innovative_project/
 - **Audit Logging**: Changes to grading scales, mark reviews, result publications, and unlocks record timestamp, user ID, IP address, and JSON before/after snapshots.
 
 =======
-## Live Demo
-* **URL:** https://frequency-scouting-serrated.ngrok-free.dev/login
-* *(Note: Hosted via ngrok tunnel—active while the local server is running.)*
