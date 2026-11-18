@@ -258,5 +258,6 @@ innovative_project/
 - **Audit Logging**: Changes to grading scales, mark reviews, result publications, and unlocks record timestamp, user ID, IP address, and JSON before/after snapshots.
 
 =======
-# UniGrade-Innovative-Project
->>>>>>> 2a62549f78ada335e883d80a44cbae66c7925bc8
+## Live Demo
+* **URL:** https://frequency-scouting-serrated.ngrok-free.dev/login
+* *(Note: Hosted via ngrok tunnel—active while the local server is running.)*
