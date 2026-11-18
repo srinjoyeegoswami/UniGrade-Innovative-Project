@@ -1,0 +1,13 @@
+id,offering_id,component_name,assessment_type,maximum_marks,weight_percentage,minimum_pass_percentage,is_mandatory,examination_date,start_time,end_time,venue,status
+1,1,"Mid-Semester Examination",MIDTERM,50.00,30.00,40.00,1,2026-10-15,10:00:00,12:00:00,"Tech Aud-1",COMPLETED
+2,1,"End-Semester Final Examination",FINAL,100.00,50.00,40.00,1,2026-12-10,09:30:00,12:30:00,"Exam Hall Alpha",COMPLETED
+3,1,"Lab Practical & Project Evaluation",PRACTICAL,50.00,20.00,40.00,1,2026-11-20,14:00:00,17:00:00,"Advanced CS Lab 2",COMPLETED
+4,2,"Mid-Semester Examination",MIDTERM,50.00,30.00,40.00,1,2026-10-15,10:00:00,12:00:00,"Tech Aud-1",COMPLETED
+5,2,"End-Semester Final Examination",FINAL,100.00,50.00,40.00,1,2026-12-10,09:30:00,12:30:00,"Exam Hall Alpha",COMPLETED
+6,2,"Lab Practical & Project Evaluation",PRACTICAL,50.00,20.00,40.00,1,2026-11-20,14:00:00,17:00:00,"Advanced CS Lab 2",COMPLETED
+7,3,"Mid-Semester Examination",MIDTERM,50.00,30.00,40.00,1,2026-10-15,10:00:00,12:00:00,"Tech Aud-1",COMPLETED
+8,3,"End-Semester Final Examination",FINAL,100.00,50.00,40.00,1,2026-12-10,09:30:00,12:30:00,"Exam Hall Alpha",COMPLETED
+9,3,"Lab Practical & Project Evaluation",PRACTICAL,50.00,20.00,40.00,1,2026-11-20,14:00:00,17:00:00,"Advanced CS Lab 2",COMPLETED
+10,4,"Mid-Semester Examination",MIDTERM,50.00,30.00,40.00,1,2026-10-15,10:00:00,12:00:00,"Tech Aud-1",COMPLETED
+11,4,"End-Semester Final Examination",FINAL,100.00,50.00,40.00,1,2026-12-10,09:30:00,12:30:00,"Exam Hall Alpha",COMPLETED
+12,4,"Lab Practical & Project Evaluation",PRACTICAL,50.00,20.00,40.00,1,2026-11-20,14:00:00,17:00:00,"Advanced CS Lab 2",COMPLETED

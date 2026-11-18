@@ -1,0 +1,13 @@
+id,assessment_component_id,enrollment_id,obtained_marks,attendance_status,remarks,entered_by,updated_at
+1,1,1,47.00,PRESENT,"Outstanding analytical performance",13,"2026-11-16 17:35:35"
+2,2,1,94.00,PRESENT,"Outstanding analytical performance",13,"2026-11-16 17:35:35"
+3,3,1,48.00,PRESENT,"Outstanding analytical performance",13,"2026-11-16 17:35:35"
+4,1,2,43.00,PRESENT,"Strong algorithmic foundations",13,"2026-11-16 17:35:35"
+5,2,2,86.00,PRESENT,"Strong algorithmic foundations",13,"2026-11-16 17:35:35"
+6,3,2,44.00,PRESENT,"Strong algorithmic foundations",13,"2026-11-16 17:35:35"
+7,1,3,38.00,PRESENT,"Consistent performance in exams",13,"2026-11-16 17:35:35"
+8,2,3,78.00,PRESENT,"Consistent performance in exams",13,"2026-11-16 17:35:35"
+9,3,3,40.00,PRESENT,"Consistent performance in exams",13,"2026-11-16 17:35:35"
+10,1,4,36.00,PRESENT,"Good conceptual comprehension",13,"2026-11-16 17:35:35"
+11,2,4,74.00,PRESENT,"Good conceptual comprehension",13,"2026-11-16 17:35:35"
+12,3,4,39.00,PRESENT,"Good conceptual comprehension",13,"2026-11-16 17:35:35"

@@ -1,0 +1,4 @@
+id,user_id,employee_code,department_id,designation,contact_number,date_of_joining
+4,13,FAC-CSE-01,1,"Professor & Head of Department","+91 98450 11223",2018-07-01
+5,14,FAC-IT-01,2,"Associate Professor","+91 98450 22334",2020-01-15
+6,15,FAC-AI-01,5,"Assistant Professor","+91 98450 33445",2022-08-01

@@ -1,0 +1,9 @@
+id,full_name,email,password_hash,role,account_status,created_at,updated_at
+1,"Dr. Rajesh Sharma",admin@unigrade.edu,$2y$10$PkZRWSiSfMsZN8dd4XjQQO9a9qlaLca5l8c1gE9KXuszWRcmYTkGu,ADMIN,ACTIVE,"2026-11-13 03:21:58","2026-11-16 20:11:46"
+12,"Srinjoyee Goswami",srinjoyee.goswami@gmail.com,$2y$10$WIwbA.wmot1xoCzaF/4ZQOM490ga8H/OuMOnGbgrcsQrF.apSoI2m,STUDENT,ACTIVE,"2026-11-14 02:51:48","2026-11-16 20:28:05"
+13,"Dr. Ananya Iyer",ananya.iyer@unigrade.edu,$2y$10$AqNZE4xgICZ3dtlM7guuv.WaTz8OthmxTm8jjl1aSRYWS1qDRaP5e,FACULTY,ACTIVE,"2026-11-16 17:35:35","2026-11-16 17:35:35"
+14,"Prof. Vikram Malhotra",vikram.malhotra@unigrade.edu,$2y$10$dfIzs./3ADTs4opY0W/eTeiFlJ3J40YO5p2Y/cH0.2pqgq.0TemBu,FACULTY,ACTIVE,"2026-11-16 17:35:35","2026-11-16 17:35:35"
+15,"Dr. Priya Mukherjee",priya.mukherjee@unigrade.edu,$2y$10$OfPmGzz0ayccDxUJvdNfwuKI5a58hsk9ASikUTahKFFwG6aLz18ji,FACULTY,ACTIVE,"2026-11-16 17:35:35","2026-11-16 17:35:35"
+16,"Aarav Mehta",aarav.mehta@gmail.com,$2y$10$4hiFcd2/ZT8hapNQYE/0YeWbDXFr5Ae6awfPnNOzY.zOP7T6YPTm.,STUDENT,ACTIVE,"2026-11-16 17:35:35","2026-11-16 17:35:35"
+17,"Diya Patel",diya.patel@gmail.com,$2y$10$/f3.cCtUuEYbMteC5z6LtOnVrHjxO1OYZd5OBQeXDOhjv91uuE/pq,STUDENT,ACTIVE,"2026-11-16 17:35:35","2026-11-16 17:35:35"
+18,"Rohan Verma",rohan.verma@gmail.com,$2y$10$O/1Sl53L/l4RKQEPZNSOA.cr1eyoL5j0tqxBIFGo7Fb7lOplFfUle,STUDENT,ACTIVE,"2026-11-16 17:35:35","2026-11-16 17:35:35"

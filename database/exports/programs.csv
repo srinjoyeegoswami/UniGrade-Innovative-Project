@@ -1,0 +1,5 @@
+id,department_id,program_name,program_code,degree_type,duration_years,status
+1,1,"B.Tech in Computer Science & Engineering",BTECH-CSE,UNDERGRADUATE,4,ACTIVE
+2,2,"B.Tech in Information Technology",BTECH-IT,UNDERGRADUATE,4,ACTIVE
+3,1,"Master of Technology in Computer Science",MTECH-CSE,POSTGRADUATE,2,ACTIVE
+4,5,"B.Tech in Artificial Intelligence & Data Science",BTECH-AI,UNDERGRADUATE,4,ACTIVE

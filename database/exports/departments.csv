@@ -1,0 +1,6 @@
+id,department_name,department_code,description,status,created_at
+1,"Computer Science & Engineering",CSE,"Department of Computer Science and Engineering",ACTIVE,"2026-11-13 21:38:48"
+2,"Information Technology",IT,"Department of Information Technology",ACTIVE,"2026-11-13 21:38:48"
+3,"Electronics & Communication Engineering",ECE,"Department of Electronics and Hardware Engineering",ACTIVE,"2026-11-13 21:38:48"
+4,"General Sciences & Humanities",GEN,"Foundational sciences and humanities",ACTIVE,"2026-11-13 21:38:48"
+5,"Artificial Intelligence & Data Science",AIDS,"Department of Artificial Intelligence and Data Science",ACTIVE,"2026-11-16 17:35:35"

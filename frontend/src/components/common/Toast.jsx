@@ -1,0 +1,87 @@
+import React, { createContext, useContext, useState, useCallback } from 'react';
+import { X, CheckCircle2, AlertCircle, Info, AlertTriangle } from 'lucide-react';
+
+const ToastContext = createContext(null);
+
+export const ToastProvider = ({ children }) => {
+  const [toasts, setToasts] = useState([]);
+
+  const addToast = useCallback((message, type = 'info', duration = 4000) => {
+    const id = Date.now() + Math.random().toString(36).substring(2, 5);
+    setToasts((prev) => [...prev, { id, message, type }]);
+
+    if (duration > 0) {
+      setTimeout(() => {
+        setToasts((prev) => prev.filter((t) => t.id !== id));
+      }, duration);
+    }
+  }, []);
+
+  const removeToast = useCallback((id) => {
+    setToasts((prev) => prev.filter((t) => t.id !== id));
+  }, []);
+
+  const toast = {
+    success: (msg, dur) => addToast(msg, 'success', dur),
+    error: (msg, dur) => addToast(msg, 'error', dur),
+    info: (msg, dur) => addToast(msg, 'info', dur),
+    warning: (msg, dur) => addToast(msg, 'warning', dur),
+  };
+
+  return (
+    <ToastContext.Provider value={toast}>
+      {children}
+      <div className="toast-container" style={{ position: 'fixed', top: 20, right: 20, zIndex: 9999, display: 'flex', flexDirection: 'column', gap: 10, maxWidth: 380 }}>
+        {toasts.map((t) => (
+          <div
+            key={t.id}
+            className={`toast toast-${t.type}`}
+            style={{
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'space-between',
+              padding: '12px 16px',
+              backgroundColor: t.type === 'error' ? '#242424' : '#171717',
+              color: '#FFFFFF',
+              borderRadius: '6px',
+              border: '1px solid #555550',
+              boxShadow: '0 4px 12px rgba(0,0,0,0.15)',
+              fontSize: '0.875rem',
+              gap: 12
+            }}
+          >
+            <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
+              {t.type === 'success' && <CheckCircle2 size={16} />}
+              {t.type === 'error' && <AlertCircle size={16} />}
+              {t.type === 'warning' && <AlertTriangle size={16} />}
+              {t.type === 'info' && <Info size={16} />}
+              <span>{t.message}</span>
+            </div>
+            <button
+              onClick={() => removeToast(t.id)}
+              style={{ background: 'none', border: 'none', color: '#858580', cursor: 'pointer', display: 'flex' }}
+            >
+              <X size={14} />
+            </button>
+          </div>
+        ))}
+      </div>
+    </ToastContext.Provider>
+  );
+};
+
+export const useToast = () => {
+  const context = useContext(ToastContext);
+  if (!context) {
+    return {
+      success: (m) => console.log('Toast success:', m),
+      error: (m) => console.error('Toast error:', m),
+      info: (m) => console.log('Toast info:', m),
+      warning: (m) => console.warn('Toast warning:', m),
+    };
+  }
+  return context;
+};
+
+export default ToastProvider;
+
